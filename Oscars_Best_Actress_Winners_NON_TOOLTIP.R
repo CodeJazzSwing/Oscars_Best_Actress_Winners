@@ -21,3 +21,4 @@ p <- ggplot(oscars, aes(x= X..Year., y=X..Age.)) +
 # Print the plot
 print(p)
 
+ggsave("actress_oscars.png", plot = p)
